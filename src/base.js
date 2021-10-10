@@ -4,11 +4,11 @@ import 'firebase/database';
 import 'firebase/auth';
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyBCIahOX8-Hpkv6V9P4dlpTzynk2HFeDjM",
-  authDomain: "burgers-2bd49.firebaseapp.com",
+  apiKey: "AIzaSyCssSXgrS9SrwOHLGGapfK9iKFXqEvQTP0",
+  authDomain: "todolist-auth-email.firebaseapp.com",
   databaseURL:
-    "https://burgers-2bd49-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "burgers-2bd49",
+    "https://todolist-auth-email-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "todolist-auth-email",
 });
 
 const base = Rebase.createClass(firebaseApp.database());
